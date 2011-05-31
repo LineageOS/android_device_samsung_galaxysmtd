@@ -46,7 +46,7 @@ adb pull /system/vendor/lib/libIMGegl.so ../../../vendor/$MANUFACTURER/$COMMON/p
 adb pull /system/vendor/lib/libpvr2d.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
 adb pull /system/vendor/lib/libpvrANDROID_WSEGL.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
 adb pull /system/vendor/lib/libPVRScopeServices.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
-adb pull /system/vendor/lib/libsec-ril.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
+adb pull /system/lib/libsec-ril.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
 adb pull /system/vendor/lib/libsrv_init.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
 adb pull /system/vendor/lib/libsrv_um.so ../../../vendor/$MANUFACTURER/$COMMON/proprietary
 adb pull /system/vendor/firmware/CE147F02.bin ../../../vendor/$MANUFACTURER/$COMMON/proprietary
