@@ -1,0 +1,8 @@
+etc/gps.conf
+vendor/bin/gpsd
+vendor/etc/gps.xml
+vendor/lib/hw/gps.aries.so
+lib/libril.so
+lib/libsecril-client.so
+lib/libsec-ril.so
+bin/rild
