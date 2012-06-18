@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAUH//9wc\u003d",
+        "filename": "setup-makefiles.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1381
+      },
+      "writtenOn": "2012-06-18T11:00:08Z",
+      "side": 1,
+      "message": "Use $DEVICE here? Obviously not vibrantmtd ;)",
+      "revId": "ea584d751ff82738b008d6b87c8b8ab66cb4be6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAUH//9wU\u003d",
+        "filename": "setup-makefiles.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1381
+      },
+      "writtenOn": "2012-06-18T11:00:08Z",
+      "side": 1,
+      "message": "Here also",
+      "revId": "ea584d751ff82738b008d6b87c8b8ab66cb4be6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
