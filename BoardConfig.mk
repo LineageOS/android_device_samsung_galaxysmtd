@@ -31,6 +31,9 @@ BOARD_FM_DEVICE := si4709
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxysmtd/recovery/recovery_keys.c
 
+# Charger
+BOARD_CHARGER_HOME_BUTTON_WAKE := true
+
 TARGET_OTA_ASSERT_DEVICE := galaxys,galaxysmtd,GT-I9000,GT-I9000M,GT-I9000T
 
 # Import the aries-common BoardConfigCommon.mk
