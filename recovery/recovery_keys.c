@@ -10,6 +10,8 @@ int device_handle_key(int key_code, int visible) {
             case KEY_CAPSLOCK:
             case KEY_DOWN:
             case KEY_VOLUMEDOWN:
+            // KEY_MENU is intentionally disabled to prevent mispressing the MENU key
+            // right before selecting an item with the HOME key
                 return HIGHLIGHT_DOWN;
 
             case KEY_LEFTSHIFT:
@@ -20,6 +22,9 @@ int device_handle_key(int key_code, int visible) {
             case KEY_HOME:
             case KEY_POWER:
                 return SELECT_ITEM;
+
+            case KEY_BACK:
+                return GO_BACK;
 
             default:
                 return NO_ACTION;
