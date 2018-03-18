@@ -1,7 +1,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := GalaxyS
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
@@ -9,7 +9,7 @@ $(call inherit-product, device/samsung/galaxysmtd/full_galaxysmtd.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := galaxysmtd
-PRODUCT_NAME := cm_galaxysmtd
+PRODUCT_NAME := lineage_galaxysmtd
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-I9000
 
